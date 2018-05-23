@@ -1,0 +1,52 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: auto;
+}
+
+span {
+    font-style: italic;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#weatherInfo {
+    background-color: lightseagreen;
+    color: white;
+}
+
+#weatherInfo {
+    padding: 2rem;
+}
+
+#weatherInfo #weatherForm {
+    margin-bottom: 2rem;
+}
+
+#findWeather, #pincode {
+    border: 0px;
+    border-radius: 5px;
+    background-color: white;
+    height: 1.5rem;
+}
+
+#pincode {
+    padding-left: 10px;
+}
+
+#weatherInfo, #table {
+    margin: auto;
+    text-align: center;
+}
